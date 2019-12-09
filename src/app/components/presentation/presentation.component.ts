@@ -10,7 +10,7 @@ export class PresentationComponent implements OnInit {  name = 'Sasa Lélé';
 
   message = null;
 
-  liste = ['Hélène', 'ALI', 'Anaïs', 'Francis', 'Gauthier', 'Joanna', 'Léon', 'Paul', 'Vincent'];
+  liste = ['Helene', 'Ali', 'Anais', 'Francis', 'Gauthier', 'Joanna', 'Leon', 'Paul', 'Vincent'];
 
   constructor() { }  ngOnInit() {
   }
