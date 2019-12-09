@@ -1,0 +1,39 @@
+<header>
+  <h1>Presentation</h1>
+</header>
+<section >
+  <div>
+    <p>
+      1+2={{1+2}}
+    </p>
+  </div>
+  <div>
+    Hello {{name}}
+  </div>
+  <div>
+    Name :{{product.name}} price :{{product.price}}
+  </div>
+  <div>
+    {{html}}
+  </div>
+  <div>
+    <p [innerHTML]="html"></p>
+  </div>
+  <div class="col">
+    <img src="{{source}}"/>
+  </div>
+  <div class="col">
+    <img [src]="source"/>
+  </div>
+</section>
+<section class="row">
+  <div>
+    <button class="btn btn-primary" (click)="click()">Coucou</button>
+  </div>
+  <div>
+    <a href="#"  class="btn btn-danger" (click)="confirm($event)">Supprimer</a>
+  </div></section>
+<div>
+  <input [(ngModel)]="message" [value]="message">{{message}}>
+
+</div>
